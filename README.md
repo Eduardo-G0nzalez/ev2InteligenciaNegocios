@@ -20,15 +20,11 @@ Este proyecto contiene el notebook `BI_T2_GonzalezEduardo.ipynb` con análisis y
    ```powershell
    .\.venv\Scripts\Activate.ps1
    ```
-5. Actualiza pip (opcional, recomendado):
-   ```powershell
-   python -m pip install --upgrade pip
-   ```
-6. Instala dependencias:
+5. Instala dependencias:
    ```powershell
    pip install -r requirements.txt
    ```
-7. Inicia JupyterLab y abre el notebook:
+6. Inicia JupyterLab y abre el notebook:
    ```powershell
    jupyter lab
    ```
@@ -36,7 +32,7 @@ Este proyecto contiene el notebook `BI_T2_GonzalezEduardo.ipynb` con análisis y
      ```powershell
      jupyter notebook
      ```
-8. En el navegador, abre `BI_T2_GonzalezEduardo.ipynb` y ejecuta las celdas (Kernel > Restart & Run All si deseas ejecutar todo de cero).
+7. En el navegador, abre `BI_T2_GonzalezEduardo.ipynb` y ejecuta las celdas (Kernel > Restart & Run All si deseas ejecutar todo de cero).
 
 ## Configuración en macOS/Linux (opcional)
 1. Abre una terminal en la carpeta del proyecto.
