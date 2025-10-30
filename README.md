@@ -4,7 +4,7 @@ Este proyecto contiene el notebook `BI_T2_GonzalezEduardo.ipynb` con análisis y
 
 ## Requisitos previos
 - Python 3.10 o 3.11 recomendado.
-- Windows PowerShell (en Windows) o terminal equivalente en macOS/Linux.
+- Windows PowerShell.
 
 ## Ejecución del proyecto
 1. Clona o descarga este repositorio en tu equipo.
