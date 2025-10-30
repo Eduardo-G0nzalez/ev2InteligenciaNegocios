@@ -8,6 +8,9 @@ Este proyecto contiene el notebook `BI_T2_GonzalezEduardo.ipynb` con análisis y
 
 ## Configuración rápida (Windows)
 1. Clona o descarga este repositorio en tu equipo.
+   ```powershell
+   git clone https://github.com/Eduardo-G0nzalez/ev2InteligenciaNegocios
+   ```
 2. Abre PowerShell en la carpeta del proyecto.
 3. Crea un entorno virtual:
    ```powershell
