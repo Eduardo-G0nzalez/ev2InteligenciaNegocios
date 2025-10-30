@@ -11,14 +11,17 @@ Este proyecto contiene el notebook `BI_T2_GonzalezEduardo.ipynb` con análisis y
    ```powershell
    git clone https://github.com/Eduardo-G0nzalez/ev2InteligenciaNegocios
    ```
-2. Abre PowerShell en la carpeta del proyecto.
+2. Mover a la carpeta del proyecto.
+   ```powershell
+   cd ev2InteligenciaNegocios
+   ```
 3. Crea un entorno virtual:
    ```powershell
-   python -m venv .venv
+   python -m venv venv
    ```
 4. Activa el entorno virtual:
    ```powershell
-   .\.venv\Scripts\Activate.ps1
+   venv\Scripts\Activate
    ```
 5. Instala dependencias:
    ```powershell
@@ -28,27 +31,8 @@ Este proyecto contiene el notebook `BI_T2_GonzalezEduardo.ipynb` con análisis y
    ```powershell
    jupyter lab
    ```
-   - Alternativa (Jupyter Notebook clásico):
-     ```powershell
-     jupyter notebook
-     ```
-7. En el navegador, abre `BI_T2_GonzalezEduardo.ipynb` y ejecuta las celdas (Kernel > Restart & Run All si deseas ejecutar todo de cero).
+8. En el navegador, abre `BI_T2_GonzalezEduardo.ipynb` y ejecuta las celdas.
 
-## Configuración en macOS/Linux (opcional)
-1. Abre una terminal en la carpeta del proyecto.
-2. Crea y activa un entorno virtual:
-   ```bash
-   python3 -m venv .venv
-   source .venv/bin/activate
-   ```
-3. Instala dependencias:
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. Inicia JupyterLab:
-   ```bash
-   jupyter lab
-   ```
 
 ## Dependencias
 Las dependencias principales se listan en `requirements.txt` y fueron inferidas del notebook:
@@ -56,12 +40,4 @@ Las dependencias principales se listan en `requirements.txt` y fueron inferidas 
 - scikit-learn
 - jupyterlab, ipykernel
 
-Si ya tienes un entorno configurado con otras versiones, puedes ajustar los números de versión en `requirements.txt` según sea necesario.
 
-## Notas y solución de problemas
-- Si la activación del entorno virtual falla en PowerShell, habilita la política de ejecución para tu usuario:
-  ```powershell
-  Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-  ```
-- Si `jupyter lab` no abre automáticamente el navegador, copia y pega la URL que aparece en la consola.
-- Si aparecen errores de importación, verifica que el entorno virtual esté activado y que la instalación de dependencias haya finalizado sin errores.
