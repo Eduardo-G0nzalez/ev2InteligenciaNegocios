@@ -6,7 +6,7 @@ Este proyecto contiene el notebook `BI_T2_GonzalezEduardo.ipynb` con análisis y
 - Python 3.10 o 3.11 recomendado.
 - Windows PowerShell (en Windows) o terminal equivalente en macOS/Linux.
 
-## Configuración rápida (Windows)
+## Ejecución del proyecto
 1. Clona o descarga este repositorio en tu equipo.
    ```powershell
    git clone https://github.com/Eduardo-G0nzalez/ev2InteligenciaNegocios
