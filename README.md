@@ -40,4 +40,6 @@ Las dependencias principales se listan en `requirements.txt` y fueron inferidas 
 - scikit-learn
 - jupyterlab, ipykernel
 
+## Dataset
+https://www.kaggle.com/datasets/mikeytracegod/lung-cancer-risk-dataset
 
