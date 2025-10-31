@@ -35,7 +35,7 @@ Este proyecto contiene el notebook `BI_T2_GonzalezEduardo.ipynb` con análisis y
 
 
 ## Dependencias
-Las dependencias principales se listan en `requirements.txt` y fueron inferidas del notebook:
+Las dependencias principales se listan en `requirements.txt`:
 - pandas, numpy, matplotlib, seaborn
 - scikit-learn
 - jupyterlab, ipykernel
